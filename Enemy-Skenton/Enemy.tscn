@@ -1,0 +1,103 @@
+[gd_scene load_steps=66 format=2]
+
+[ext_resource path="res://Images/Skenton archer/frame_00_delay-0.2s.jpg" type="Texture" id=1]
+[ext_resource path="res://Enemy/Enemy.gd" type="Script" id=2]
+[ext_resource path="res://Images/Skenton archer/frame_01_delay-0.2s.jpg" type="Texture" id=3]
+[ext_resource path="res://Images/Skenton archer/frame_40_delay-0.1s.jpg" type="Texture" id=4]
+[ext_resource path="res://Images/Skenton archer/frame_35_delay-0.1s.jpg" type="Texture" id=5]
+[ext_resource path="res://Images/Skenton archer/frame_52_delay-0.1s.jpg" type="Texture" id=6]
+[ext_resource path="res://Images/Skenton archer/frame_50_delay-0.1s.jpg" type="Texture" id=7]
+[ext_resource path="res://Images/Skenton archer/frame_15_delay-0.1s.jpg" type="Texture" id=8]
+[ext_resource path="res://Images/Skenton archer/frame_16_delay-0.1s.jpg" type="Texture" id=9]
+[ext_resource path="res://Images/Skenton archer/frame_17_delay-0.1s.jpg" type="Texture" id=10]
+[ext_resource path="res://Images/Skenton archer/frame_18_delay-0.1s.jpg" type="Texture" id=11]
+[ext_resource path="res://Images/Skenton archer/frame_14_delay-0.1s.jpg" type="Texture" id=12]
+[ext_resource path="res://Images/Skenton archer/frame_41_delay-0.1s.jpg" type="Texture" id=13]
+[ext_resource path="res://Images/Skenton archer/frame_43_delay-0.1s.jpg" type="Texture" id=14]
+[ext_resource path="res://Images/Skenton archer/frame_44_delay-0.1s.jpg" type="Texture" id=15]
+[ext_resource path="res://Images/Skenton archer/frame_45_delay-0.1s.jpg" type="Texture" id=16]
+[ext_resource path="res://Images/Skenton archer/frame_46_delay-0.5s.jpg" type="Texture" id=17]
+[ext_resource path="res://Images/Skenton archer/frame_48_delay-0.1s.jpg" type="Texture" id=18]
+[ext_resource path="res://Images/Skenton archer/frame_47_delay-0.1s.jpg" type="Texture" id=19]
+[ext_resource path="res://Images/Skenton archer/frame_49_delay-0.5s.jpg" type="Texture" id=20]
+[ext_resource path="res://Images/Skenton archer/frame_53_delay-0.1s.jpg" type="Texture" id=21]
+[ext_resource path="res://Images/Skenton archer/frame_19_delay-0.1s.jpg" type="Texture" id=22]
+[ext_resource path="res://Images/Skenton archer/frame_20_delay-0.1s.jpg" type="Texture" id=23]
+[ext_resource path="res://Images/Skenton archer/frame_21_delay-0.1s.jpg" type="Texture" id=24]
+[ext_resource path="res://Images/Skenton archer/frame_42_delay-0.1s.jpg" type="Texture" id=25]
+[ext_resource path="res://Images/Skenton archer/frame_23_delay-0.1s.jpg" type="Texture" id=26]
+[ext_resource path="res://Images/Skenton archer/frame_07_delay-0.2s.jpg" type="Texture" id=27]
+[ext_resource path="res://Images/Skenton archer/frame_08_delay-0.1s.jpg" type="Texture" id=28]
+[ext_resource path="res://Images/Skenton archer/frame_54_delay-0.1s.jpg" type="Texture" id=29]
+[ext_resource path="res://Images/Skenton archer/frame_55_delay-0.1s.jpg" type="Texture" id=30]
+[ext_resource path="res://Images/Skenton archer/frame_56_delay-0.1s.jpg" type="Texture" id=31]
+[ext_resource path="res://Images/Skenton archer/frame_57_delay-0.1s.jpg" type="Texture" id=32]
+[ext_resource path="res://Images/Skenton archer/frame_58_delay-0.1s.jpg" type="Texture" id=33]
+[ext_resource path="res://Images/Skenton archer/frame_59_delay-0.3s.jpg" type="Texture" id=34]
+[ext_resource path="res://Images/Skenton archer/frame_05_delay-0.2s.jpg" type="Texture" id=35]
+[ext_resource path="res://Images/Skenton archer/frame_06_delay-0.2s.jpg" type="Texture" id=36]
+[ext_resource path="res://Images/Skenton archer/frame_22_delay-0.1s.jpg" type="Texture" id=37]
+[ext_resource path="res://Images/Skenton archer/frame_09_delay-0.1s.jpg" type="Texture" id=38]
+[ext_resource path="res://Images/Skenton archer/frame_12_delay-0.1s.jpg" type="Texture" id=39]
+[ext_resource path="res://Images/Skenton archer/frame_51_delay-0.1s.jpg" type="Texture" id=40]
+[ext_resource path="res://Images/Skenton archer/frame_03_delay-0.2s.jpg" type="Texture" id=41]
+[ext_resource path="res://Images/Skenton archer/frame_04_delay-0.2s.jpg" type="Texture" id=42]
+[ext_resource path="res://Images/Skenton archer/frame_11_delay-0.1s.jpg" type="Texture" id=43]
+[ext_resource path="res://Images/Skenton archer/frame_33_delay-0.1s.jpg" type="Texture" id=44]
+[ext_resource path="res://Images/Skenton archer/frame_32_delay-0.1s.jpg" type="Texture" id=45]
+[ext_resource path="res://Images/Skenton archer/frame_37_delay-0.1s.jpg" type="Texture" id=46]
+[ext_resource path="res://Images/Skenton archer/frame_38_delay-0.1s.jpg" type="Texture" id=47]
+[ext_resource path="res://Images/Skenton archer/frame_39_delay-0.1s.jpg" type="Texture" id=48]
+[ext_resource path="res://Enemy-Skenton/animations.gd" type="Script" id=49]
+[ext_resource path="res://Images/Skenton archer/frame_13_delay-0.1s.jpg" type="Texture" id=50]
+[ext_resource path="res://Images/Skenton archer/frame_02_delay-0.2s.jpg" type="Texture" id=51]
+[ext_resource path="res://Images/Skenton archer/frame_10_delay-0.1s.jpg" type="Texture" id=52]
+[ext_resource path="res://Images/Skenton archer/frame_24_delay-0.1s.jpg" type="Texture" id=53]
+[ext_resource path="res://Images/Skenton archer/frame_34_delay-0.1s.jpg" type="Texture" id=54]
+[ext_resource path="res://Images/Skenton archer/frame_25_delay-0.1s.jpg" type="Texture" id=55]
+[ext_resource path="res://Images/Skenton archer/frame_26_delay-0.2s.jpg" type="Texture" id=56]
+[ext_resource path="res://Images/Skenton archer/frame_36_delay-0.2s.jpg" type="Texture" id=57]
+[ext_resource path="res://Images/Skenton archer/frame_27_delay-0.1s.jpg" type="Texture" id=58]
+[ext_resource path="res://Images/Skenton archer/frame_28_delay-0.1s.jpg" type="Texture" id=59]
+[ext_resource path="res://Images/Skenton archer/frame_30_delay-0.1s.jpg" type="Texture" id=60]
+[ext_resource path="res://Images/Skenton archer/frame_31_delay-0.1s.jpg" type="Texture" id=61]
+[ext_resource path="res://Images/Skenton archer/frame_29_delay-0.1s.jpg" type="Texture" id=62]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 43.3061, 40.9474 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 3 ), ExtResource( 51 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 35 ), ExtResource( 36 ), ExtResource( 27 ), ExtResource( 9 ), ExtResource( 28 ), ExtResource( 38 ), ExtResource( 52 ), ExtResource( 43 ), ExtResource( 39 ), ExtResource( 50 ), ExtResource( 12 ), ExtResource( 53 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 37 ), ExtResource( 45 ), ExtResource( 26 ), ExtResource( 55 ), ExtResource( 56 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 62 ), ExtResource( 60 ), ExtResource( 4 ), ExtResource( 61 ), ExtResource( 44 ), ExtResource( 54 ), ExtResource( 5 ), ExtResource( 57 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 18 ), ExtResource( 48 ), ExtResource( 13 ), ExtResource( 25 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 19 ), ExtResource( 31 ), ExtResource( 17 ), ExtResource( 7 ), ExtResource( 20 ), ExtResource( 40 ), ExtResource( 6 ), ExtResource( 21 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ) ],
+"loop": true,
+"name": "default",
+"speed": 4.98
+} ]
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 42.7014, 39.6576 )
+
+[node name="Enemy" type="KinematicBody2D"]
+position = Vector2( 0.911194, -1.91614 )
+script = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.604614, 0.685242 )
+shape = SubResource( 1 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+position = Vector2( 1.74701, -11.9456 )
+scale = Vector2( 0.194515, 0.182085 )
+frames = SubResource( 2 )
+frame = 33
+playing = true
+script = ExtResource( 49 )
+
+[node name="enemy" type="Sprite" parent="Sprite"]
+position = Vector2( -10.8867, 7.56073 )
+scale = Vector2( 0.122431, 0.116128 )
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 3 )
